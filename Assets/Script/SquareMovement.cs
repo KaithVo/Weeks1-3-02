@@ -19,7 +19,6 @@ public class SquareMovevement : MonoBehaviour
         //Vector3 contains x y and z values grouped together
         //transform.position.x += 1f;
 
-        
 
     }
 
@@ -29,7 +28,7 @@ public class SquareMovevement : MonoBehaviour
         Vector3 newPosition = transform.position;
 
         //When assigning a value to a float, we want to append "f" to the end
-        newPosition.x += speed;//
+        newPosition.x += speed *Time.deltaTime;//
         transform.position = newPosition;
 
         //xMax
