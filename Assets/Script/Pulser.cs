@@ -19,7 +19,8 @@ public class Pulser : MonoBehaviour
     void Update()
     {
         progress += Time.deltaTime;
-        transform.localScale = curve.Evaluate(progress/duration) * Vector3.one; //".one" is to make the scale uniform in all directions, it means by (x,y,z) -> (1,1,1)
+        //".one" is to make the scale uniform in all directions, it means by (x,y,z) -> (1,1,1)
+        transform.localScale = curve.Evaluate(progress/duration) * Vector3.one; 
 
         if ( progress > duration)
         {
