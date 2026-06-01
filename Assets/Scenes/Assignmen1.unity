@@ -696,6 +696,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e2da4e20f5db43efaa73166549f1369, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LightFlick
+  SpriteRenderer: {fileID: 0}
+  minAlpha: 0.2
+  maxAlpha: 0.7
+  flickeringCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.0020942688
+      value: 0.7264099
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.1930246
+      value: 0.7236421
+      inSlope: -2.7910912
+      outSlope: -2.7910912
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.22177704
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.41926903
+      value: 0.58166206
+      inSlope: 1.8323524
+      outSlope: 1.8323524
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.98114014
+      value: 0.37029266
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &968034138
 GameObject:
   m_ObjectHideFlags: 0
@@ -1687,6 +1732,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e2da4e20f5db43efaa73166549f1369, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LightFlick
+  SpriteRenderer: {fileID: 0}
+  minAlpha: 0.2
+  maxAlpha: 0.7
+  flickeringCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.0020942688
+      value: 0.7264099
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.1930246
+      value: 0.7236421
+      inSlope: -2.7910912
+      outSlope: -2.7910912
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.22177704
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.41926903
+      value: 0.58166206
+      inSlope: 1.8323524
+      outSlope: 1.8323524
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.98114014
+      value: 0.37029266
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1729973120
 GameObject:
   m_ObjectHideFlags: 0

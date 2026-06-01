@@ -27,7 +27,7 @@ public class LightFlick : MonoBehaviour
     void Update()
     {
 
-        float process = flickerTime / 0.5; 
+        float process = flickerTime / 1; 
 
         flickerTime += Time.deltaTime * speed;
 
