@@ -1,5 +1,5 @@
-using UnityEngine;
 
+using UnityEngine;
 using UnityEngine.InputSystem;
 
 
@@ -17,8 +17,9 @@ public class LetterAniamtion : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        RandomColor();
+
         spriteRenderer = GetComponent<SpriteRenderer>();
-        spriteRenderer.color = Color.white;
 
         //save the original scale
         originalScale = transform.localScale;
@@ -34,7 +35,7 @@ public class LetterAniamtion : MonoBehaviour
         if (spriteRenderer.bounds.Contains(mousePos) == true)
         {
             //use the color variable
-            spriteRenderer.color = Random.ColorHSV();
+            spriteRenderer.color = col;
             mouseIsOverMe = true;
 
         }
@@ -45,6 +46,11 @@ public class LetterAniamtion : MonoBehaviour
             mouseIsOverMe = false;
         }
 
+    }
+
+    void RandomColor()
+    {
+        col = Random.ColorHSV();
     }
 
     private float speed = 2f;
