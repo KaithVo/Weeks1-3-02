@@ -602,6 +602,7 @@ GameObject:
   m_Component:
   - component: {fileID: 721605228}
   - component: {fileID: 721605229}
+  - component: {fileID: 721605230}
   m_Layer: 0
   m_Name: Light
   m_TagString: Untagged
@@ -683,6 +684,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &721605230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721605227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e2da4e20f5db43efaa73166549f1369, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LightFlick
 --- !u!1 &968034138
 GameObject:
   m_ObjectHideFlags: 0
@@ -1580,6 +1593,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1726491978}
   - component: {fileID: 1726491979}
+  - component: {fileID: 1726491980}
   m_Layer: 0
   m_Name: Light (1)
   m_TagString: Untagged
@@ -1661,6 +1675,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1726491980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726491977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e2da4e20f5db43efaa73166549f1369, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LightFlick
 --- !u!1 &1729973120
 GameObject:
   m_ObjectHideFlags: 0

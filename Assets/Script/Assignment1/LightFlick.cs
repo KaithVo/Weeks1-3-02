@@ -1,4 +1,4 @@
-using System;
+
 using UnityEngine;
 
 public class LightFlick : MonoBehaviour
@@ -26,12 +26,17 @@ public class LightFlick : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        float process = flickerTime / 0.5; 
+
         flickerTime += Time.deltaTime * speed;
 
-        //aplly alpha witout changing colpr
-        
-        currentColor.a = Mathf.Lerp(minAlpha, maxAlpha, flickeringCurve.Evaluate(flickerTime));
-        Color currentColor = currentColor;
+        //apply alpha without changing color
+        //https://www.google.com/search?q=alpha+animation+curve+unity&sca_esv=dfd8ad97cdb7fcc2&rlz=1C5CHFA_enCA1026CA1026&sxsrf=ANbL-n4cs2UhHW8DzpZygbe8V6-kAJwHpw%3A1769565476840&ei=JG15aYyMM7Kew8cPgI3t8QQ&ved=0ahUKEwiMrp2Nka2SAxUyz_ACHYBGO04Q4dUDCBE&uact=5&oq=alpha+animation+curve+unity&gs_lp=Egxnd3Mtd2l6LXNlcnAiG2FscGhhIGFuaW1hdGlvbiBjdXJ2ZSB1bml0eTIFECEYoAEyBRAhGJ8FMgUQIRifBTIFECEYnwUyBRAhGJ8FMgUQIRifBTIFECEYnwUyBRAhGJ8FMgUQIRifBTIFECEYnwVIpBVQxgZYnBRwAXgBkAEAmAGgAaABsQWqAQMxLjW4AQPIAQD4AQGYAgegAs4FwgIKEAAYsAMY1gQYR8ICBxAhGKABGAqYAwCIBgGQBgiSBwMyLjWgB-IlsgcDMS41uAfMBcIHAzAuN8gHDoAIAA&sclient=gws-wiz-serp
+
+        Color color = SpriteRenderer.color;
+        color.a = Mathf.Lerp(minAlpha, maxAlpha, flickeringCurve.Evaluate(process));
+        SpriteRenderer.color = color; 
 
     }
 }
