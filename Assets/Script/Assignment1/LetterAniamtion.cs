@@ -1,4 +1,5 @@
 using UnityEngine;
+
 using UnityEngine.InputSystem;
 
 
@@ -16,12 +17,17 @@ public class LetterAniamtion : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer.color = Color.white;
+
+        //save the original scale
+        originalScale = transform.localScale;
     }
 
     // Update is called once per frame
     void Update()
     {
+        //update animating
         Animating();
         //change color
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
