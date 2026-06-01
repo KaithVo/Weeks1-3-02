@@ -112,12 +112,12 @@ TextureImporter:
       name: SpecLetter06_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 28
-        width: 7
-        height: 18
+        x: 17
+        y: 6
+        width: 192
+        height: 196
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -130,77 +130,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: SpecLetter06_1
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 9
-        width: 195
-        height: 193
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 350db06e65c481450800000000000000
-      internalID: 6059677234737434707
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpecLetter06_2
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 6
-        width: 42
-        height: 59
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 59bad40b2d903c940800000000000000
-      internalID: 5315102785732979605
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpecLetter06_3
-      rect:
-        serializedVersion: 2
-        x: 101
-        y: 7
-        width: 36
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1ebfe5ec719138f50800000000000000
-      internalID: 6882372245589523425
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a9ff72594c50548d0917aec6ee44312f
     internalID: 0
     vertices: []
     indices: 
@@ -208,12 +142,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":218.0,"y":196.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       SpecLetter06_0: -8571068084821596247
-      SpecLetter06_1: 6059677234737434707
-      SpecLetter06_2: 5315102785732979605
-      SpecLetter06_3: 6882372245589523425
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

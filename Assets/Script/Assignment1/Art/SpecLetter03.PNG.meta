@@ -107,41 +107,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 10
-        y: 11
-        width: 61
-        height: 169
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3fefa7b5dc5620c50800000000000000
-      internalID: 6629973534120279795
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpecLetter03_1
-      rect:
-        serializedVersion: 2
-        x: 70
         y: 4
-        width: 93
+        width: 166
         height: 176
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a22768b1fe03c16d0800000000000000
-      internalID: -3018483846727962070
+      spriteID: c9bea9bc7336449f09653d732c81eb29
+      internalID: 1896598401
       vertices: []
       indices: 
       edges: []
@@ -150,7 +128,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7e9ae6461880746f9a2db7d8ed561234
     internalID: 0
     vertices: []
     indices: 
@@ -158,10 +136,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":176.0,"y":196.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      SpecLetter03_0: 6629973534120279795
-      SpecLetter03_1: -3018483846727962070
+      SpecLetter03_0: 1896598401
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
